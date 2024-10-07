@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anne Fotos</title>
+
+    <link rel="stylesheet" href="style (1).css">
+</head>
+<body>
+    
+    <!-- <div class="barra"></div> -->
+    <nav class="navbar">
+        <h1 class="logo"> Anne Viagens</h1>
+        <ul class="nav-links">
+            <li class="Conta"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Principais destinos</li>
+            <li><a href="#"></a>Contate-nos</li>
+            <li><a href="#"></a>Viagens</li>
+            <button class="botaocima">Minha Conta</button>
+
+        </ul>
+
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <h2>Explore a beleza da Europa:</h2>
+            <div class="line"></div>
+            <h1>Cantenbury!</h1>
+            <div class="botao" id="myBotao" onclick="abrirModal()">Veja mais</div>
+        </div>
+    </header>
+
+
+    <div class="events">
+            <div class="title">
+                <br>
+                <br>
+                <h1>Conheça o countryside!</h1>
+                <div class="line"></div>       
+            </div>
+
+          <section class="row">            
+            <div class="col">
+                <img  class="img" src="cantenbury-fortaleza.jpg" alt="foto de paisagem bonitinha" width="80%" height="10%">
+                <br>
+                <br>
+                <h1>Bem-vindo a Cantenbury!</h1>
+                <br>
+                <br>
+                <li><I>Cantenbury, localizada no coração de Kent, é uma das cidades mais antigas da Inglaterra. Famosa por sua catedral e história rica, ela encanta visitantes com suas ruas medievais e arquitetura preservada. </I></li>
+
+                <br> <a href="#" class="ctn">Saiba mais</a>
+            </div>
+
+            <div class="col">
+                <img  class="img" src="Canterbury-Cathedral.avif" alt="foto de paisagem bonitinha"  width="80%">
+                <br>
+                <br>
+                <h1>Catedral de Cantenbury</h1>
+                <br>
+                <br>
+                <li><I>Patrimônio Mundial da UNESCO, a Catedral de Cantenbury é uma das igrejas mais importantes da cristandade. É aqui que o Arcebispo de Cantenbury, líder espiritual da Igreja Anglicana, reside. </I></li>
+                <br> <a href="#" class="ctn">Saiba mais</a>
+            </div>
+
+          </section>
+
+          <section class="row">            
+            <div class="col">
+                <img class="img" src="cantenbury-tomas.jpg" alt="foto de paisagem bonitinha" width="80%">
+                <br>
+            </div>
+
+            <div class="col">
+                <h1>A História de São Tomás Becket</h1>
+                <br>
+                <br>
+                <li><I> A Catedral de Cantenbury ficou conhecida como local de peregrinação após o assassinato de São Tomás Becket em 1170, que marcou profundamente a história da Inglaterra. </I></li>
+                <br> <a href="#" class="ctn">Saiba mais</a>
+            </div>
+
+          </section>
+
+          
+          <section class="row">            
+            <div class="col">
+                <img  class="img" src="castelo.webp" alt="foto de paisagem bonitinha" width="80%">
+                <br>
+                <br>
+                <h1>O Castelo de Cantenbury</h1>
+                <br>
+                <br>
+                <li><I>Construído pelos normandos no século XI, o Castelo de Cantenbury foi uma importante fortaleza durante a Idade Média. Hoje, suas ruínas são um marco histórico da cidade. </I></li>
+
+                <br> <a href="#" class="ctn">Saiba mais</a>
+            </div>
+
+            <div class="col">
+                <img  class="img" src="cantenbury-lago.jpg" alt="foto de paisagem bonitinha"  width="80%">
+                <br>
+                <br>
+                <h1>Os Jardins e Parques</h1>
+                <br>
+                <br>
+                <li><I>Além de seu patrimônio histórico, Cantenbury oferece espaços verdes deslumbrantes, como os Jardins Westgate e o Parque Dane John, ideais para caminhadas tranquilas.</I></li>
+                <br> <a href="#" class="ctn">Saiba mais</a>
+            </div>
+
+          </section>
+          
+          <section class="row">            
+            <div class="col">
+                <br>
+                <br>
+                <h1>Mercado de Rua</h1>
+                <br>
+                <br>
+                <li><I>Descubra o charme dos mercados de rua de Cantenbury. Com produtos locais, artesanato e muita história, as feiras trazem vida e cultura à cidade, conectando passado e presente.</I></li>
+
+                <br> <a href="#" class="ctn">Saiba mais</a>
+            </div>
+
+            <div class="col">
+                <img  class="img" src="cantenbury-mercados.jpg" alt="foto de paisagem bonitinha"  width="80%">                
+            </div>
+
+          </section>
+
+    </div>
+
+
+    <div class="janelinha-modal" id="janelinha-modal">
+        
+        <div class="modal">
+
+            <button class="fechar" id="fechar" onclick="fecharModal()">&#10060;</button>
+            <center>
+                <h1>Bem-vindo à Anne Viagens -  Aproveite nossos pacotes com preços incríveis! </h1>
+
+            </center>
+            
+
+            <br><br>
+            <center>
+            <p>   <li>Roteiro Histórico: 3 dias em Cantenbury + Tour pela Catedral a partir de R$ 1.299. </li> 
+                <br>
+                <li>  Aventura no Countryside: 5 dias explorando os campos de Cantenbury e castelos, a partir de R$ 1.999.</li>
+               <br>
+                <li>Experiência Completa: 7 dias com tudo incluso, hospedagem 5 estrelas e passeios exclusivos por R$ 3.499. </li>
+                <br>
+               <p>  Se você busca uma viagem imersiva, onde história e tranquilidade se encontram, este é o destino perfeito.</p>
+                </center>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
